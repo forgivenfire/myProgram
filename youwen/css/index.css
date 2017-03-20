@@ -1,0 +1,878 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	box-sizing: border-box;
+}
+body{
+	width: 1346px;
+}
+html{
+	overflow-x: hidden;
+}
+.header{
+	width: 100%;
+	height: 90px;
+}
+.logo{
+	width: 216px;
+	height: 31px;
+	position: absolute;
+	top: 30px;
+}
+.header-right ul li{
+	width: 80px;
+	height: 90px;
+	float: left;
+	text-align: center;
+	line-height: 90px;
+	margin-left: 16px;
+}
+.header-right ul{
+	margin-left: 30px;
+}
+.header-right{
+	width:1000px;
+	float: right;
+	/*margin-left: 20px;*/
+}
+.header-right  a{
+	display: inline-block;
+	height: 90px;
+	width: 87px;
+	/*border-bottom: 3px solid red;*/
+	color: black;
+}
+.header-right .phone{
+	width: 180px;
+	margin-left: 20px;
+	background: url(../img/images/phone.png) no-repeat;
+	text-indent: 20px;
+	background-position: 0 36px;
+}
+
+.header-right ul li a:hover{
+	color: orangered;
+	border-bottom: 3px solid red;
+}
+
+/*轮播图*/
+#fullpage{
+	width: 100%;
+	height: 600px;
+}
+.slide img{
+	width: 100%;
+	height: 600px;
+	/*height: 100%;*/
+}
+.slide{
+	width: 100%;
+	height: 500px;
+}
+/*第2.1部分教学部分*/
+#contentp{
+	font-size: 34px;
+	padding-top: 70px;
+	color: #000000;
+	text-align: center;
+}
+#contentp span{
+	font-size: 40px;
+	color: red;
+}
+#contentp2{
+	padding-top: 22px;
+	font-size: 22px;
+	color: silver;
+	text-align: center;
+}
+		/* css 重置 */
+		*{margin:0; padding:0; list-style:none; }
+		body{ background:#fff; font:normal 12px/22px 宋体;  }
+		img{ border:0;  }
+		a{ text-decoration:none; color:#333;  }
+		.main{width: 100%;}
+			.section{width: 100%;}
+		/* 本例子css */
+		.slideBox{ width:100%; height:500px; overflow:hidden; position:relative; border:1px solid #ddd;  }
+		.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; }
+		.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+		.slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+		.slideBox .hd ul li.on{ background:#f00; color:#fff; }
+		.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+		.slideBox .bd li{ zoom:1; vertical-align:middle; }
+		.slideBox .bd img{width: 100%; height:500px; display:block;  }
+
+		/* 下面是前/后按钮代码，如果不需要删除即可 */
+		.slideBox .prev,
+		.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(../img/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:1;   }
+		.slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
+		.slideBox .prev:hover,
+		.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+		.slideBox .prevStop{ display:none;  }
+		.slideBox .nextStop{ display:none;  }
+/*第2.2部分教学模式与服务*/
+.content-2{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.left-img,.center-img,.right-img{
+	width: 300px;
+	height:330px;
+	margin-top: 50px;
+	float: left;
+	margin-left: 30px;
+	
+}
+.left-img{
+	background: url(../img/images/headico.png) no-repeat;
+	background-position: 0 0;
+	background-size:100%;
+	background-position:center; 
+}
+
+.center-img{
+	background: url(../img/images/server.png) no-repeat;
+	background-position: 0 0;
+	background-size:100% ;
+	background-position:50% 0;
+}
+
+.right-img{
+	background: url(../img/images/teach.png) no-repeat;
+	background-position: 0 0;
+	background-size:100%;
+	background-position:50% 0;
+}
+.left-img:hover{
+	background: url(../img/images/headico2.png) no-repeat;
+	background-position: 0 0;
+	background-size:100%;
+	background-position:50% 0
+}
+
+.center-img:hover{
+	background: url(../img/images/server2.png) no-repeat;
+	background-position: 0 0;
+	background-size:100% ;
+	background-position:50% 0;
+}
+
+.right-img:hover{
+	background: url(../img/images/teach2.png) no-repeat;
+	background-position: 0 0;
+	background-size:100%;
+	background-position:50% 0;
+}
+
+.left-bottom,.center-bottom,.right-bottom{
+	float: left;
+	width: 300px;
+	text-align: center;
+	line-height: 20px;
+	margin-left: 10px;
+	
+}
+.left-bottom p,.center-bottom p,.right-bottom p{
+	height: 30px;
+	font-size: 28px;
+	color: #333333;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.left-bottom span,.center-bottom span,.right-bottom span{
+	line-height: 20px;
+	color: #666666;
+	font-size: 18px;
+	margin-left: 20px;
+	
+	
+}
+.bottomAll{
+	width: 940px;
+	height: 105px;
+	margin: 0 auto;
+	margin-top:36px;
+}
+.bgimg{
+	height: 370px;
+	width: 1000px;
+	margin: 0 auto;
+}
+/*//免费预约*/
+#yup{
+	position: relative;
+}
+#yuyue{
+	display: block;
+	width: 180px;
+	height: 60px;
+	background-color:red;
+	border-radius:10px;
+	text-align:center;
+	line-height: 60px;
+	position: absolute;
+	left:43%;
+	top:50%;
+	
+	
+}
+#yuyue a{
+	display: block;
+	width: 180px;
+	height: 60px;
+	color: white;
+	font-size: 20px;
+}
+#yuyue:hover{
+	opacity: 0.5;
+}
+
+/*科学课程*/
+#kexue{
+	width: 100%;
+	height: 180px;
+	color: black;
+	font-size: 34px;
+	text-align: center;
+	line-height: 180px;
+	margin-top: 100px;
+}
+#kexue span{
+	font-size: 45px;
+	color:red;
+}
+
+
+/*//课程联动培优*/
+#peiyou{
+	width: 100%;
+	height: 180px;
+	text-align: center;
+	line-height: 180px;
+	font-size: 30px;
+	
+}
+#peiyou span{
+	font-size: 38px;
+	color: red;
+}
+
+#class ul li{
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	float: left;
+	border: 1px red solid;
+	text-align: center;
+	line-height: 50px;
+	font-size: 29px;
+	color: red;
+	margin-left: 5%;
+	cursor: pointer;
+	/*font-weight: bolder;*/
+}
+
+#class{
+	width: 100%;
+	height: 80px;
+	
+}
+#class ul{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.classA ul li{
+	width: 120px;
+	height: 40px;
+	border-radius: 10px;
+	float: left;
+	border: 1px red solid;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	color: red;
+	margin-left: 5%;
+	cursor: pointer;
+	/*font-weight: bolder;*/
+}
+
+.classA{
+	width: 100%;
+	height: 80px;
+	
+}
+.classA .ul{
+	width:500px;
+	height: 100%;
+	margin: 0 auto;
+}
+.ul2,.ul3{
+	width:800px;
+	height: 100%;
+	margin: 0 auto;
+}
+.ul4{
+	width: 500px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.classA ul{
+	/*float: left;*/
+	margin: 0 auto;
+	
+}
+
+
+.all{
+	position: relative;
+}
+/*小学语文部分*/
+#allClass{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.xiaoxue{
+	margin-top: 100px;
+}
+.box{
+	width: 1250px;
+	height: 330px;
+	
+	position: relative;
+	margin: 0 auto;
+	color: white;
+	
+}
+
+.year{
+	position: absolute;
+}
+.box p{
+	color: #FDB62B;
+	width: 230px;
+	font-size: 34px;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.box li{
+	font-size: 12px;
+}
+.one{
+	position: absolute;
+	left:12px;
+	top: 50px;
+	padding-top: 50px;
+}
+.onebg{
+	width: 230px;
+	height: 187px;
+	background-color:#fdb62b ;
+	text-align: left;
+	padding:33px;
+	padding-top: 32px;
+	
+}
+.two{
+	position: absolute;
+	left:262px;
+	top: 50px;
+}
+.twobg{
+	width: 230px;
+	height: 237px;
+	background-color:#fdb62b ;
+	text-align: left;
+	
+	padding: 20px;
+	padding-top: 80px;
+}
+.third{
+	position: absolute;
+	left:503px;
+	top: 0;
+}		
+
+.thirdbg{
+	width: 230px;
+	height: 287px;
+	background-color:#fc8b37 ;
+	text-align: left;
+	
+	padding: 30px;
+	padding-top: 110px;
+}
+
+.four{
+	position: absolute;
+	left:745px;
+	top:0;
+}		
+
+.fourbg{
+	width: 230px;
+	height: 287px;
+	background-color:#fc8b37 ;
+	text-align: left;
+	
+	padding: 30px;
+	padding-top: 100px;
+}
+
+.five{
+	position: absolute;
+	left:988px;
+	top: 0;
+}		
+
+.fivebg{
+	width: 230px;
+	height: 287px;
+	background-color:#fe5454 ;
+	text-align: left;
+	padding: 30px;
+	padding-top: 120px;
+}
+
+/*//初中课程*/
+
+.chuzhong {
+	
+	/*position: relative;*/
+}
+.box2{
+	width: 1100px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 50px;
+}
+
+.third2{
+	position: absolute;
+	top: 0;
+	left: 331px;
+}
+
+.four2{
+	position: absolute;
+	top: 0;
+	left: 634px;
+}
+
+.five2{
+	height: 400px;
+	position: absolute;
+	left: 434px;
+	top:-50px;
+	background-color: #fe5454;
+}
+.five2 p{
+	background-color: white;
+}
+.box2 p {
+    color: #FDB62B;
+    width: 230px;
+    font-size: 34px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    }
+.box2 .onebg li{
+	color:white;
+	font-size: 12px;
+}    
+.box2 .twobg li{
+	color:white;
+	font-size: 12px;
+}
+ .box2 .thirdbg li{
+	color:white;
+	font-size: 12px;
+}  
+ .box2 .fourbg li{
+   	/*width: 330px;*/
+	color:white;
+	font-size: 12px;
+} 
+  .box2 .four2 .fourbg{
+    /*position: absolute;
+    top: 0px;
+    left: 7px;*/
+   height: 347px;
+    } 
+.four2{
+	position: absolute;
+	left:777px;
+	top:-62px;
+}		
+.four23{
+	position: absolute;
+	left:630px;
+	top:-62px;
+}
+/*//初中化学*/
+.box2 .fivebg li{
+   	/*width: 330px;*/
+	color:white;
+	font-size: 12px;
+} 
+  .box2 .five .fivebg{
+    /*position: absolute;
+    top: 0px;
+    left: 7px;*/
+   height: 380px;
+    } 
+/*第三部分,五轮赛选严格把控教学质量*/
+#thirdp{
+	width: 100%;
+	height: 180px;
+	padding-top: 50px;
+}
+#thirdp p{
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	background-color: red;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	margin: 0 auto;
+	border: 1px solid red;
+	
+}
+/*//五个span*/
+
+#five{
+	height:700px;
+	width: 100%;
+	background-image: url(../img/images/tab3-bg.png);
+	background-repeat:no-repeat ;
+	background-size:cover ;
+	
+}
+#five p{
+	height: 150px;
+	font-size: 32px;
+	text-align: center;
+	line-height:40px;
+	padding-top: 60px;
+	
+}
+.juzhong {
+	width: 1200px;
+	margin: 0 auto;
+}
+#five p span{
+	color: red;
+	font-size:38px;
+}
+.fivefu span{
+	display: inline-block;
+	font-size: 24px;
+	color: white;
+	height: 60px;
+	position: relative;
+	text-align: center;
+	line-height: 60px;
+	margin-top: 10px;
+}
+
+.fivefu span:nth-child(1){
+	width:78% ;
+	background: url(../img/images/tixing1.png)no-repeat;
+	left: 2%;
+}
+
+.fivefu span:nth-child(2){
+	width:70.8% ;
+	background: url(../img/images/tixing2.png)no-repeat;
+	left: 2%;
+}
+.fivefu span:nth-child(3){
+	width:63.8% ;
+	background: url(../img/images/tixing3.png)no-repeat;
+	left: 2%;
+}
+.fivefu span:nth-child(4){
+	width:57.8% ;
+	background: url(../img/images/tixing4.png)no-repeat;
+	left: 2%;
+}
+
+.fivefu span:nth-child(5){
+	width:54.8% ;
+	background: url(../img/images/tixing5.png)no-repeat;
+	left: 3%;
+}
+
+.fivefu span:nth-child(6){
+	width:45.8% ;
+	background: url(../img/images/tixing6.png)no-repeat;
+	left: 2%;
+}
+
+.trans:hover{
+	
+	transform: scale(1.2,1.2);
+}
+
+#five #btnYuyue{
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	background-color: red;
+	margin: 30px auto;
+	border-radius:10px ;
+	padding-top: 0;
+	font-size: 20px;
+	cursor: pointer;
+	
+}
+
+/*底部图片变换*/
+.footer p:nth-child(1){
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 32px;
+	text-align: center;
+	
+}
+.footer p:nth-child(1) span{
+	font-size: 38px;
+	color: red;
+}
+.footer p:nth-child(2){
+	color: slategray;
+	font-size: 23px;
+}
+
+.footer{
+	width: 1200px;
+	margin: 0 auto;
+}
+.footImg{
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+}
+.footImg div{
+	width: 200px;
+	margin-top: 80px;
+	float: left;
+	/*display: inline-block;*/
+}
+.footImg img:hover{
+	transform: scale(1.2);
+}
+#img{
+	margin-top: 150px;
+}
+#img2{
+	/*margin-left: 30px;*/
+	margin-top:50px;
+}
+ #img3{
+	width: 400px;
+	/*margin-left:30px;*/
+}
+
+
+ #img4{
+ 	width: 200px;
+ 	/*margin-left: 30px;*/
+ 	margin-top:50px;
+ }
+
+#img5{
+	width: 200px;
+ 	/*margin-left: 30px;*/
+ }
+#img{
+	margin-top: 140px;
+}
+#img img{
+	width: 200px;
+}
+#img5 img{
+	display: block;
+	margin-top: 30px;
+}
+#img2 img{
+	display: block;
+	margin: 0 auto;
+}
+#img3 img{
+	display: block;
+	margin: 0 auto;
+}
+#img4 img{
+	display: block;
+	margin-top: -40px;
+}
+
+
+/*//下方模态框*/
+
+#motai{
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+	border-radius:10px ;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	background-color: red;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#motai:hover{
+	text-decoration: none;
+}
+
+/*模态框*/
+
+
+.opacity{
+	width: 100%;
+	height: 3800px;
+	opacity: 0.5;
+	background-color:black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+.mtk{
+	width: 500px;
+	height: 400px;
+	border-radius:10px ;
+	position: fixed;
+	
+	z-index: 200;
+	background-color: blue;
+}
+#disappear{
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: red;
+	font-size: 28px;
+	color: antiquewhite;
+	cursor: pointer;
+}
+
+/*最底部省市联动*/
+.liandong{
+	width: 100%;
+	height: 80px;
+	background-color:#222222;
+	padding-top: 30px;
+	position: relative;
+	margin-top: 30px;
+	
+}
+.liandong input{
+	width: 200px;
+	height: 30px;
+	font-size: 16px;
+	border: 1px solid white;
+}
+.liandong select{
+	/*padding-top: 32px;*/
+	margin-left: 5px;
+	height: 30px;
+	border: 1px solid white;
+	font-size: 12px;
+	
+}
+.liandong select option{
+	font-size: 12px;
+}
+#shiting{
+	display: block;
+	width: 150px;
+	height: 40px;
+	border-radius: 7px;
+	background-color: red;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	position: absolute;
+	right: 80px;
+	top: 25px;
+}
+
+.last-item{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	text-align: center;
+	line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
